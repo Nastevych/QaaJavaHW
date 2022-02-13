@@ -8,8 +8,6 @@ public class MainAnimal {
         Dog dog = new Dog("Wofy", 6, "Pet", "M");
         Coala coala = new Coala("Lily", 1, "wild", "F");
 
-        String catGender = cat.getGender();
-        String dogGenger = dog.getGender();
-        System.out.println("Is Dog and Cat same gender? " + catGender.equals(dogGenger));
+        System.out.println("Is Dog and Cat same gender? " + cat.getGender().equals(dog.getGender()));
     }
 }
