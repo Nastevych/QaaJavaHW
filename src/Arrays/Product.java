@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Objects;
 
-public class Product {
+public class Product implements Comparable {
     String name;
     double prise;
     String about;
@@ -68,5 +68,10 @@ public class Product {
     @Override
     public int hashCode() {
         return Objects.hash(name, prise, about, category);
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }
