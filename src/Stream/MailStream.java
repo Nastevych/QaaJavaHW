@@ -51,19 +51,4 @@ public class MailStream extends Product {
 
     }
 
-    public String name() {
-        return getCategory().name();
-    }
-
-    public int ordinal() {
-        return getCategory().ordinal();
-    }
-
-    public int compareTo(Category o) {
-        return getCategory().compareTo(o);
-    }
-
-    public Class<Category> getDeclaringClass() {
-        return getCategory().getDeclaringClass();
-    }
 }
